@@ -1,5 +1,5 @@
 import React from 'react'
-
+import contactform from '../assets/images/contactform.png'
 const ContactUs = () => {
   return (
     <div>    
@@ -11,7 +11,7 @@ const ContactUs = () => {
                 </div>
                 <h4>Let's Connect</h4>
             </div>
-            <img src="background-lines-right.svg" alt="wavyLine"/>
+            <img src={contactform }alt=""/>
         </section>
         <section className="contact-body">
             <div className="ct-body-top">

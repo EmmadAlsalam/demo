@@ -3,6 +3,7 @@ import { NavLink, Link  } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import image from '../assets/images/logotype.svg'
 
+
 const Header = () => {
   return (
     <header>
@@ -35,9 +36,10 @@ const Header = () => {
         <div className="main-menu">
             <nav>
                 <NavLink to ="/">Home</NavLink>
-                <NavLink to ="/services">services</NavLink>
-                <NavLink to ="/News">News</NavLink> 
-                <NavLink to ="/Connect">Contacts</NavLink>   
+                <NavLink to ="/News">services</NavLink> 
+                <NavLink to ="/services">News </NavLink>
+                <NavLink to ="/Connect">Contacts</NavLink>
+                 
 
             </nav>
             <a className="btn-yellow btn-login" href="login.html">Login<i className="fa-solid fa-arrow-right"></i></a>

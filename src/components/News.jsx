@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink, Link  } from 'react-router-dom'
 import mar  from '../assets/images/25mars.png'
 import mars  from '../assets/images/17mars.png'
 import marsi  from '../assets/images/13mars.png'
@@ -13,7 +14,7 @@ const News = () => {
                     <h2>Get Every Single Article And News</h2>
                 </div>
                 <div className="article-top-right">
-                    <a href="#">Browse Articles<i className="fa-solid fa-arrow-right"></i></a>
+                <Link to="/News">Browse Articles<i className="fa-solid fa-arrow-right"></i></Link>
                 </div>
             </div>
             <div className="article-bottom">

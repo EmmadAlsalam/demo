@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ElementServices from '../assets/images/ElementServeces.png';
 const Services = () => {
   return (
 
@@ -44,11 +44,15 @@ const Services = () => {
                         <span>
                             <i className="fa-solid fa-arrow-right"></i>
                         </span>
+                        
                     </div>
+                   
                 </div>
-                <a href="#">Browse Services<i className="fa-solid fa-arrow-right"></i></a>
-            </div>
-
+                
+                 <a href="#">Browse Services<i className="fa-solid fa-arrow-right"></i></a>
+                 </div>
+            <img className='ElementServices' src={ElementServices} alt=""/>
+           
     </section>
     </div>
   )

@@ -1,5 +1,8 @@
 import React from 'react'
-import Bild from '../assets/images/logotypvit.svg'
+import CritoFotter from '../assets/images/CritoFotter.svg';
+import Elementfotter from '../assets/images/Elementfooter.png';
+
+
 
 const Footer = () => {
   return (
@@ -7,7 +10,7 @@ const Footer = () => {
        <div>
           <div className="footer-top">
             <div className="left">
-            <img src={Bild} alt="logo"/>
+            <img src={CritoFotter} alt="" />
             <p>Lorem ipsum dolor sit amet consectetur  
                 adipisicing elit. Placeat obcaecati voluptas  
                 voluptates! Voluptates laborum nam 
@@ -16,7 +19,9 @@ const Footer = () => {
         </div>
         <div className="right">
             <div>
-                <img src="images/Elementfooter.png" alt=""/>
+            <img src={Elementfotter} alt="" />
+
+
                 <div className="item">
                     <h4 >Company</h4>
                     <span>
